@@ -1,22 +1,22 @@
 # factorOracle
-C source for the factorOracle external for Pure Data.
+C source for the *factorOracle* Pure Data external.
 
-NOTE: This is an alpha phase project, still under development and testing. There may be bugs. Currently, the external is verified to run on Mac OS Mavericks 10.9.5 in Pure Data v0.47 64-bit binary.
+NOTE: This is an alpha phase project, still under development and testing. There may be bugs. Currently, the external is verified to run on Mac OS Mavericks 10.9.5 with the Pure Data v0.47 64-bit binary.
 
-Visit [https://puredata.info/docs/developer](https://puredata.info/docs/developer) for instructions on how to build the factorOracle external for your architecture.
+Visit [https://puredata.info/docs/developer](https://puredata.info/docs/developer) for instructions on how to build the *factorOracle* external for your architecture.
 
-###What does it do?
+##What does it do?
 Factor oracle is a graph representing at least all of the substrings of a word. It can be built incrementally in linear time and space. A factor oracle representation of input from a live musical performance can be built in real time and parsed using a variety of heuristics to generate music in the style of the performance. 
 
 See [factorOracle.pdf](factorOracle.pdf) for a detailed description of this implementation.
 
 See [factorOracle-demo.pd](factorOracle-demo.pd) for usage.
 
-See [https://vimeo.com/adamjameswilson/eighteen](https://vimeo.com/adamjameswilson/eighteen) for a video example of factorOracle used in a live performance. 
+See [https://vimeo.com/adamjameswilson/eighteen](https://vimeo.com/adamjameswilson/eighteen) for a video example of *factorOracle* used in a live performance. 
 
-###License and copyright notice
+##License and copyright notice
  
-factorOracle, a Pure Data external  
+*factorOracle*, a Pure Data external  
 Adam James Wilson  
 awilson@citytech.cuny.edu  
  
