@@ -1,0 +1,63 @@
+#N canvas 239 49 730 647 10;
+#X floatatom 19 15 5 0 0 0 - - -, f 5;
+#X obj 37 44 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X floatatom 190 224 5 0 0 0 - - -, f 5;
+#X obj 190 258 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X floatatom 190 291 5 0 0 0 - - -, f 5;
+#X msg 96 75 clear;
+#X floatatom 19 615 5 0 0 0 - - -, f 5;
+#X floatatom 190 386 5 0 0 0 - - -, f 5;
+#X floatatom 161 420 5 0 0 0 - - -, f 5;
+#X floatatom 133 455 5 0 0 0 - - -, f 5;
+#X floatatom 47 571 5 0 0 0 - - -, f 5;
+#X msg 96 114 read;
+#X msg 96 187 write testout.txt;
+#X msg 96 151 read testin.txt;
+#X obj 19 320 factorOracle 10000 testin.txt;
+#X text 56 43 get new output transition;
+#X text 210 257 get current state info;
+#X obj 104 494 print transitions;
+#X obj 76 534 print transition end states;
+#X text 169 454 number of transitions from the current state (on bang
+in center inlet);
+#X text 212 494 transitions from the current state (on bang in center
+inlet);
+#X text 245 534 states terminating transitions from the current state
+(on bang in center inlet);
+#X text 82 570 state terminating suffix link from the current state
+(on bang in center inlet);
+#X text 54 615 output transition (on bang in left inlet);
+#X text 226 386 final state index (on bang in center inlet);
+#X text 196 421 current state index (on bang in center inlet);
+#X text 225 289 probabilty of taking a foraward transition vs. suffix
+link on bang in left inlet;
+#X text 226 224 set state index;
+#X text 129 114 read input word via system dialog;
+#X text 53 15 next letter in input word;
+#X text 197 151 read input word from a file located in the directory
+of this patch;
+#X text 210 187 write input word to a file located in the directory
+of this patch;
+#X text 202 320 first argument (int) reserves memory for a corresponding
+number input and output states \; second argument is the name of a
+file located in the directory of this patch that contains an input
+word to read in on instantiation;
+#X text 137 75 empty the factor oracle;
+#X connect 0 0 14 0;
+#X connect 1 0 14 0;
+#X connect 2 0 14 1;
+#X connect 3 0 14 1;
+#X connect 4 0 14 2;
+#X connect 5 0 14 0;
+#X connect 11 0 14 0;
+#X connect 12 0 14 0;
+#X connect 13 0 14 0;
+#X connect 14 0 6 0;
+#X connect 14 1 10 0;
+#X connect 14 2 18 0;
+#X connect 14 3 17 0;
+#X connect 14 4 9 0;
+#X connect 14 5 8 0;
+#X connect 14 6 7 0;
