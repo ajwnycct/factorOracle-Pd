@@ -14,7 +14,7 @@ See [factorOracle-demo.pd](factorOracle-demo.pd) for usage.
 
 See [https://vimeo.com/adamjameswilson/eighteen](https://vimeo.com/adamjameswilson/eighteen) for a video example of *factorOracle* used in a live performance. 
 
-##License and copyright notice
+## License and copyright notice
  
 *factorOracle*, a Pure Data external  
 Adam James Wilson  
