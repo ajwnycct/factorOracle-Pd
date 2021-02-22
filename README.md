@@ -1,7 +1,7 @@
 # factorOracle
 C source for the *factorOracle* Pure Data external.
 
-NOTE: This is an alpha phase project, still under development and testing. There may be bugs. Currently, the external is verified to run on Mac OS Mavericks 10.9.5 with the Pure Data v0.47 64-bit binary.
+Currently, the external is verified to run on Mac OS Mavericks 10.9.5 or greater with Pure Data v0.47 through Pure Data v0.51-4.
 
 Visit [https://puredata.info/docs/developer](https://puredata.info/docs/developer) for instructions on how to build the *factorOracle* external for your architecture.
 
